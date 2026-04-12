@@ -1,0 +1,28 @@
+/* RESET + FULL WIDTH FIX */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+/* REMOVE CENTERING BEHAVIOR */
+body {
+  display: block;
+}
+
+/* OPTIONAL: SMOOTH TEXT RENDERING */
+body {
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 1126px;
+  margin: 0 auto;
+}
