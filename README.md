@@ -1,28 +1,32 @@
-## Usage
+## Torrubia
+
+#### Framework: Solid JS
+
+#### Module: Document Request
+
+#### Installation
+
+To replicate and run this project follow the following steps using Windows Powershell:
 
 ```bash
-$ npm install # or pnpm install or yarn install
+winget install OpenJS.NodeJS.LTS
+npm create vite@latest my-solid-app -- --template solid
+cd my-solid-app
+npm install
+npm run
+npm run build
+npm run deploy
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+### AI Tools:
 
-## Available Scripts
+1. Chat GPT (Premium)
 
-In the project directory, you can run:
+### Prompt:
 
-### `npm run dev`
+Can you make me a pc web version of this along with its js (Solid JS) and css? with the same color themes.
+(I SENT THE IMAGES OF THE PAGES FROM FIGMA)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+#### Screenshots
 
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vite.dev/guide/static-deploy.html)
+"Create an image folder in your root directory and place all screenshots their. You can use the image tag to show the image. Follow this [link]("https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images")"
